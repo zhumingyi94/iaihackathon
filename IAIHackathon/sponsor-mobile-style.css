@@ -1,0 +1,47 @@
+.sponsor {
+    order: 2;
+    display: flex;
+    height: auto;
+    padding: 12.875rem 0 8.72681rem 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    background: white;
+    opacity: 90%;
+}
+
+#oraichain {
+    width: 14.75rem;
+    height: 10rem;
+    background: url("./assets/orainchain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#smartosc {
+    width: 15.1875rem;
+    height: 8.2165rem;
+    margin: 0;
+    background: url("./assets/osc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gem {
+    margin: 0;
+    width: 21.0625rem;
+    height: 8.39819rem;
+    background: url("./assets/gem.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hblab {
+    width: 13rem;
+    height: 4rem;
+    background: url("./assets/hbl.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
