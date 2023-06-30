@@ -5,29 +5,229 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IAI Hackathon 2023</title>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css">
+
+    <link href="setup.css" rel="stylesheet">
+
+    <link href="footer-mobile-style.css" rel="stylesheet">
+
+    <link href="sponsor-mobile-style.css" rel="stylesheet">
+
+    <link href="judge-mobile-style.css" rel="stylesheet">
+
+    <link href="footer-desktop-style.css" rel="stylesheet">
+
+    <link href="sponsor-desktop-style.css" rel="stylesheet">
+
+    <link href="judge-desktop-style.css" rel="stylesheet">
 </head>
 <body>
+    
+    <!-- DMN's section -->
     <header>
         <nav>
-            <img src="logo.png" alt="UET-logo" class="logo">
+            <img src="./assets/logo.png" class="LOGO">
             <ul>
-                <li><a>Đăng ký</a></li>
-                <li><a>Thể lệ</a></li>
-                <li><a>Timeline</a></li>
-                <li><a>Giải thưởng</a></li>
-                <li><a>Giám khảo</a></li>
+                <li><a href="">Đăng ký</a></li>
+                <li><a href="#the_le">Thể lệ</a></li>
+                <li><a href="#main-timeline">Timeline</a></li>
+                <li><a href="#prize">Giải thưởng</a></li>
+                <li><a href="#giam_khao">Giám khảo</a></li>
             </ul>
         </nav>
         <div class="main-content-title">
             <h1>IAI Hackathon 2023</h1>
-            <p>Bạn đã sẵn sàng cho một chặng hành trình đầy thăng hoa ?</p>
+            <p id="title_description">Bạn đã sẵn sàng cho một chặng hành trình đầy thăng hoa ?</p>
             <div class="button-container">
                 <a href=""><button>Đăng ký</button></a>
             </div>
         </div>
     </header>
     <div class="main-content">
-        <h1>THỂ LỆ</h1>
+        <h1 id="the_le">THỂ LỆ</h1>
+        <div id="the_le_p">
+            <p>Sinh viên năm nhất, năm 2, các học sinh THPT trên địa bàn Hà Nội đăng ký tham gia theo nhóm 3-5 người lập trình ứng dụng với chủ đề “Gamify Education” (Lập trình ứng dụng cho đào tạo)</p>
+        </div>
+        <div class="button-container second">
+            <a href=""><button>Xem thêm</button></a>
+        </div>
+        <div id="main-timeline">
+        <div class="timeline">
+            <div>
+                <h2>Đăng ký</h2>
+                <p>Các đội đăng ký bằng cách click vào ô đăng ký ở trên hoặc truy cập form trên fanpage từ 05/07/2023 đến 12/07/2023</p>
+            </div>
+        </div>
+        <div class="timeline">
+            <div>
+                <h2>Vòng loại</h2>
+                <p>Các đội nộp ý tưởng dự thi từ ngày 15/07/2023 - 22/07/2023, 10 đội có ý tưởng xuất sắc nhất sẽ được giám khảo chọn vào chung kết và công bố vào 27/07/2023</p>
+            </div>
+        </div>
+        <div class="timeline">
+            <div>
+                <h2>Workshop</h2>
+                <p>10 đội xuất sắc vào chung kết sẽ gặp mặt các cố vấn xin ý kiến phát triển sản phẩm vào 30/07/2023</p>
+            </div>
+        </div>
+        <div class="timeline">
+            <div>
+                <h2>Chung kết</h2>
+                <p>10 đội xuất sắc vào chung kết sẽ có 24h phát triển sản phẩm từ ý tưởng của mình và trình bày trước các ban giám khảo vào 05/08/2023</p>
+            </div>
+        </div>
+        </div>
+        <div id="prize">
+        <div class = "prize-align">
+            <h1>GIẢI THƯỞNG</h1>
+            <div class="prize-container">
+                <img src="./assets/1st.png" alt="Logo">
+                <p><strong>Vô địch:</strong> 20.000.000 tiền thưởng, cúp vô địch, chứng nhận của Ban Tổ chức</p>
+            </div>
+            <div class="prize-container">
+                <img src="./assets/2nd.png" alt="Logo">
+                <p><strong>02 giải nhì:</strong> 10.000.000 tiền thưởng, chứng nhận của Ban Tổ chức</p>
+            </div>
+            <div class="prize-container">
+                <img src="./assets/3rd.png" alt="Logo">
+                <p><strong>02 giải ba:</strong> 5.000.000 tiền thưởng, chứng nhận của Ban Tổ chức</p>
+            </div>
+            <div class="prize-container">
+                <img src="./assets/top10.png" alt="Logo">
+                <p>10 đội tham dự chung kết đều được nhận giấy chứng Ban Tổ chức</p>
+            </div>
+        </div>
+
+        <!-- kana section -->
+        <div class="judge-box" id="giam_khao">
+            <div class="judge-title">
+                <h1> BAN GIÁM KHẢO </h1>
+            </div>
+            <div class="judge-list">
+                <div class="judge">
+                    <div class="judge-image" id="tql">
+        
+                    </div>
+                    <div class="judge-name">
+                        TS. TRẦN QUỐC LONG
+                    </div>
+                    <div class="judge-description">
+                        Viện trưởng viên trí tuệ nhân tạo, Trường Đại học Công nghệ, ĐHQGHN
+                    </div>
+                </div>
+                <div class="judge">
+                    <div class="judge-image" id=nvh>
+        
+                    </div>
+                    <div class="judge-name">
+                        PGS. TS. NGUYỄN VIỆT HÀ
+                    </div>
+                    <div class="judge-description">
+                        Nguyên hiệu trưởng Trường Đại học Công nghệ, ĐHQGHN
+                    </div>
+                </div>
+                <div class="judge">
+                    <div class="judge-image" id="ntnd">
+        
+                    </div>
+                    <div class="judge-name">
+                        TS. NGUYỄN THỊ NGỌC DIỆP
+                    </div>
+                    <div class="judge-description">
+                        Giảng viên Trường Đại học Công nghệ, ĐHQGHN. Co-founder Oraichains Labs
+                    </div>
+                </div>
+        
+                <div class="judge">
+                    <div class="judge-image" id="ltg">
+        
+                    </div>
+                    <div class="judge-name">
+                        Anh LÃ TRƯỜNG GIANG
+                    </div>
+                    <div class="judge-description">
+                        Giám đốc R&D HBLAB.
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="section">
+        
+                <div class="sponsor">
+                    
+        
+                    <div id="oraichain">
+        
+                    </div>
+        
+                    <div id="smartosc">
+        
+                    </div>
+        
+                    <div id="gem">
+        
+                    </div>
+        
+                    <div id="hblab">
+        
+                    </div>
+                </div>
+                <div class="section-1">
+                    <div class="logo1">
+        
+                    </div>
+        
+                    <div class="email-box">
+                        <p>
+                            Email
+                        </p>
+                        <div class="email-list">
+                            <div class="email">
+                                <p> iaihackathon@gmail.com </p>
+                            </div>
+        
+                            <div class="email">
+                                <p> uet-ai@vnu.edu.vn </p>
+                            </div>
+        
+                            <div class="email">
+                                <p> support@iai.com </p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="button-container">
+                        <a href="">
+                            <button>
+                                LIÊN HỆ
+                            </button>
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="section-2">
+        
+                    <div class="icon flex-container">
+                        <i class="fab fa-google" id="google"> </i>
+                        <i class="fab fa-facebook" id="facebook"> </i>
+                        <i class="fab fa-github" id="github"> </i>
+                    </div>
+        
+                    <div class="policies">
+                        <p>
+                            Privacy Policy
+                        </p>
+                        <p>
+                            Terms & Conditions
+                        </p>
+                    </div>
+        
+                    <div class="uet">
+                        © 2023 UET-VNU
+                    </div>
+                </div>
+            </div>
     </div>
 </body>
 </html>

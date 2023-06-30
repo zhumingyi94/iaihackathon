@@ -13,8 +13,11 @@ div.footer {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    display: none;
 }
-
+.section-2 {
+    display: none;
+}
 .logo {
     display: none;
 }
@@ -39,6 +42,6 @@ div.footer {
     color: #FFF;
     text-align: center;
     font-size: 0.875rem;
-    font-family: SourceSansPro, sans-serif;
+    font-family: 'SourceSansPro', sans-serif;
     letter-spacing: 0.063rem;
 }

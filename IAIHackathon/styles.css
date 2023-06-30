@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'SourceSansPro';
-    src: url(\SourceSansPro-Light.otf);
+    src: url(./assets/SourceSansPro-Light.otf);
 }
 
 html {
@@ -35,9 +35,22 @@ body {
     color: #FFFFFF;
 }
 
-.logo {
+.LOGO {
     width: 3.16469rem;
     height: 3.16919rem;
+}
+a {
+    transition: background 0.3s;
+}
+
+a:hover {
+    background: rgb(26,53,200);
+    background: linear-gradient(90deg, rgba(26,53,200,1) 0%, rgba(101,67,173,1) 35%, rgba(183,2,237,1) 66%, rgba(102,24,140,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: right center;
+    background-size: 200% auto; 
 }
 nav {
     display: flex;
@@ -71,7 +84,7 @@ li {
 }
 
 header {
-    background: url('background-image.png');
+    background: url('./assets/background-image.png');
     background-size: cover;
     width: 100%;
     height: 50rem; 
@@ -111,7 +124,13 @@ button {
     letter-spacing: 0.0625rem;
     font-size: 0.875rem;
     border-radius: 5px;
+    transition: border-color 0.3s;
 }
+button:hover
+{
+    border-color: rgba(102,24,140,1);
+}
+
 
 a {
     color: white;
@@ -120,7 +139,7 @@ a {
 
 .main-content {
     background: linear-gradient(180deg, #000 0%, #0E126E 30.21%, #0C0C0C 100%);
-    height: 199.1875rem;
+    height: 203.1875rem;
     display: flex;
     flex-direction: column;
 }
@@ -172,7 +191,7 @@ a {
     line-height: 1.02rem;
     letter-spacing: 0.07081rem;
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 .timeline p {
     line-height: 1.25rem;
@@ -230,7 +249,114 @@ a {
     right: -0.5em;
 }
 
-@media screen and (max-width: 1150px) {
+.prize-align {
+    margin-top: 1.5em;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prize-container {
+    display: flex;
+}
+
+.prize-container p {
+    font-size: 1.98831rem;
+    line-height: 2.38594rem;
+    text-align: left;
+    width: 35.38744rem;
+    margin-left: 1.2rem;
+}
+.prize-container img {
+    width: 2.15194rem;
+    height: 2.15194rem;
+    transform: translateY(0.68em);
+}
+strong {
+    font-weight: 1000;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1150px) {    
+    header {
+        background: url('./assets/background-image.png');
+        background-size: cover;
+        width: 100%;
+        height: 12rem;
+        padding-top: 1px;
+    }
+
+    .logo {
+        width: 2rem;
+        height: auto;
+    }
+    .main-content {
+        height: auto;
+        
+    }
+    .main-content-title {
+        margin-top: 0rem;
+    }
+
+    .main-content-title h1 {
+        font-size: 1.64806rem;
+        line-height: 1.97763rem;
+        margin-bottom: 1px;
+    }
+     
+    #title_description {
+        font-size: 0.79456rem;
+        margin-top: 0px;
+        margin-bottom: 1.8rem;
+        letter-spacing: 0.02081rem;
+    }
+
+    .button-container {
+        transform: translateY(-1.5rem);
+    }
+    button {
+        width: 8.26906rem;
+        height:  1.77144rem;
+        font-size: 0.8rem;
+        line-height: 0.3rem;
+        letter-spacing: 0.02081rem;
+        font-style: normal;
+        border: 0.667px solid #FFF;
+        border-radius: 0.2rem;
+        margin-bottom: 0rem;
+    }
+    #the_le {
+        text-align: center;
+        font-size: 1.64806rem;
+        padding-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+    #the_le_p {
+        width: 18.375rem;
+        height: 5.52081rem;
+        text-align: center;
+        font-size:  0.79456rem;
+        line-height: 1.8em;
+        margin-top: 0.1rem;
+        margin-bottom: 4rem;
+        letter-spacing: 0.02081rem;
+    }
     #main-timeline {
         width: 80vw;
     }
@@ -253,13 +379,22 @@ a {
         left: 50%;
         transform: translateX(-50%);
     }
+    .prize-align {
+
+        margin-top: 2px;
+    }
+    .prize-align h1 {
+        font-size: 1.6669rem;
+    }
+    .prize-container img{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .prize-container p {
+        font-size: 0.79456rem;
+        width: 16rem;
+    }
 }
 
-.prize-align {
-    margin-top: 1.5em;
-    font-size: 3.5rem;
-    line-height: 4.2rem;
-    text-align: center;
-    letter-spacing: 0.1rem;
-}
 
