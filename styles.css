@@ -17,6 +17,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
     display: none;
@@ -292,11 +293,26 @@ strong {
     flex-direction: column;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: blur(0);
+}
 
 @media screen and (max-width: 1150px) {    
-    body {
+    html, body {
         overflow-x: hidden;
-    }
+      }
+    body {
+        position: relative
+      }
     header {
         background: url('./assets/background-image.png');
         background-size: cover;
@@ -331,7 +347,7 @@ strong {
     }
 
     .button-container {
-        transform: translateY(-1.5rem);
+        transform: translateY(-1.9rem);
     }
     button {
         width: 8.26906rem;

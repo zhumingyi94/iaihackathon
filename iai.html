@@ -23,6 +23,8 @@
     <link href="sponsor-desktop-style.css" rel="stylesheet">
 
     <link href="judge-desktop-style.css" rel="stylesheet">
+
+    <script defer src="app.js"></script>
 </head>
 <body>
     
@@ -47,6 +49,7 @@
         </div>
     </header>
     <div class="main-content">
+        <span class="hidden">
         <h1 id="the_le">THỂ LỆ</h1>
         <div id="the_le_p">
             <p>Sinh viên năm nhất, năm 2, các học sinh THPT trên địa bàn Hà Nội đăng ký tham gia theo nhóm 3-5 người lập trình ứng dụng với chủ đề “Gamify Education” (Lập trình ứng dụng cho đào tạo)</p>
@@ -54,33 +57,34 @@
         <div class="button-container second">
             <a href=""><button>Xem thêm</button></a>
         </div>
+        </span>
         <div id="main-timeline">
-        <div class="timeline">
+        <div class="timeline hidden">
             <div>
                 <h2>Đăng ký</h2>
                 <p>Các đội đăng ký bằng cách click vào ô đăng ký ở trên hoặc truy cập form trên fanpage từ 05/07/2023 đến 12/07/2023</p>
             </div>
         </div>
-        <div class="timeline">
+        <div class="timeline hidden">
             <div>
                 <h2>Vòng loại</h2>
                 <p>Các đội nộp ý tưởng dự thi từ ngày 15/07/2023 - 22/07/2023, 10 đội có ý tưởng xuất sắc nhất sẽ được giám khảo chọn vào chung kết và công bố vào 27/07/2023</p>
             </div>
         </div>
-        <div class="timeline">
+        <div class="timeline hidden">
             <div>
                 <h2>Workshop</h2>
                 <p>10 đội xuất sắc vào chung kết sẽ gặp mặt các cố vấn xin ý kiến phát triển sản phẩm vào 30/07/2023</p>
             </div>
         </div>
-        <div class="timeline">
+        <div class="timeline hidden">
             <div>
                 <h2>Chung kết</h2>
                 <p>10 đội xuất sắc vào chung kết sẽ có 24h phát triển sản phẩm từ ý tưởng của mình và trình bày trước các ban giám khảo vào 05/08/2023</p>
             </div>
         </div>
         </div>
-        <div id="prize">
+        <div id="prize" class="hidden">
         <div class = "prize-align">
             <h1>GIẢI THƯỞNG</h1>
             <div class="prize-container">
@@ -103,11 +107,11 @@
 
         <!-- kana section -->
         <div class="judge-box" id="giam_khao">
-            <div class="judge-title">
+            <div class="judge-title hidden">
                 <h1> BAN GIÁM KHẢO </h1>
             </div>
             <div class="judge-list">
-                <div class="judge">
+                <div class="judge hidden">
                     <div class="judge-image" id="tql">
         
                     </div>
@@ -118,7 +122,7 @@
                         Viện trưởng viên trí tuệ nhân tạo, Trường Đại học Công nghệ, ĐHQGHN
                     </div>
                 </div>
-                <div class="judge">
+                <div class="judge hidden">
                     <div class="judge-image" id=nvh>
         
                     </div>
@@ -129,7 +133,7 @@
                         Nguyên hiệu trưởng Trường Đại học Công nghệ, ĐHQGHN
                     </div>
                 </div>
-                <div class="judge">
+                <div class="judge hidden">
                     <div class="judge-image" id="ntnd">
         
                     </div>
@@ -141,7 +145,7 @@
                     </div>
                 </div>
         
-                <div class="judge">
+                <div class="judge hidden">
                     <div class="judge-image" id="ltg">
         
                     </div>
@@ -159,22 +163,22 @@
         
                 <div class="sponsor">
                     
-        
-                    <div id="oraichain">
-        
-                    </div>
-        
-                    <div id="smartosc">
+    
+                    <div id="oraichain" class="hidden">
         
                     </div>
         
-                    <div id="gem">
+                    <div id="smartosc" class="hidden">
         
                     </div>
         
-                    <div id="hblab">
+                    <div id="gem" class="hidden">
         
                     </div>
+        
+                    <div id="hblab" class="hidden">
+        
+                </div>
                 </div>
                 <div class="section-1">
                     <div class="logo1">
