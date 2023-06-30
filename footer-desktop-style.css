@@ -1,0 +1,157 @@
+/* For desktop */
+@media only screen and (min-width: 1150px) {
+    div.footer {
+        width: 100%;
+        height: auto;
+        background: #000609;
+        box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-1 {
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .section-2 {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .logo1 {
+        display: block;
+        width: 5.75rem;
+        height: 5.75rem;
+        flex-shrink: 0;
+        background: url(./assets/logo.png);
+        background-size: cover;
+        margin-left: 1.75rem;
+        margin-top: 1rem;
+    }
+
+
+    .email-box {
+        /*background-color: pink;*/
+        display: inline-flex;
+        width: 34.063rem;
+        height: 9.938rem;
+        margin: 1.75rem 0 0 6.071rem;
+        padding: 0 0 0.965rem 0;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.686rem;
+    }
+
+    .email-box > p {
+        color: #FFF;
+        font-size: 1.388rem;
+        font-family: 'SourceSansPro', "sans-serif";
+        line-height: 1.943rem;
+        margin: 0;
+    }
+
+    .email-box > .email-list {
+        display: flex;
+        width: 34.063rem;
+        height: 6.105rem;
+        padding: 0.185rem 9.594rem 0.093rem 0.059rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.278rem;
+    }
+
+    .email-list > .email {
+        width: 24.41rem;
+        height: 1.758rem;
+        flex-shrink: 0;
+    }
+
+    .email > p {
+        /*background-color: red;*/
+        display: flex;
+        width: 17.251rem;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        font-size: 1.295rem;
+        font-family: 'SourceSansPro', "sans-serif";
+        line-height: 1.665rem;
+        margin: 0;
+
+    }
+
+    .contact {
+        /*background-color: red;*/
+        margin: 6.5rem 10.19rem 8.5rem 3px;
+        width: 14.188rem;
+        height: 3.125rem;
+        flex-shrink: 0;
+        border-radius: 0.188rem;
+        border: 0.125rem solid #FFF;
+    }
+
+    .contact > p {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-size: 0.875rem;
+        font-family: 'SourceSansPro', sans-serif;
+        letter-spacing: 0.063rem;
+    }
+
+    .icon {
+        color: #FFF;
+        font-size: 1.688rem;
+        line-height: 2.3625rem;
+    }
+
+    #google {
+        margin: 2.38rem 0 1.69rem 13.56rem;
+    }
+
+    #facebook {
+        margin: 2.37rem 0 1.69rem 2.06rem;
+    }
+
+    #github {
+        margin: 2.37rem 0 1.69rem 2.06rem;
+    }
+
+    .policies {
+        margin: 3.56rem 0 1.5rem 10.68rem;
+        display: inline-flex;
+        height: 1.375rem;
+        padding: 0.125rem 0.92475rem 0.0625rem 0.03188rem;
+        align-items: flex-start;
+        gap: 0.95663rem;
+        flex-shrink: 0;
+    }
+
+    .policies > p {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        font-size: 0.8125rem;
+        font-family: 'SourceSansPro', sans-serif;
+        line-height: 1.125rem;
+    }
+
+    .uet {
+        margin: 0 0 1.62rem 90%;
+        color: #FFF;
+        font-size: 0.9375rem;
+        font-family: 'SourceSansPro', sans-serif;
+        line-height: 1.3125rem;
+    }
+}
+
+
