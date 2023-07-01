@@ -131,7 +131,7 @@ button {
 }
 button:hover
 {
-    border-color: rgb(169, 193, 207);
+    border-color: rgb(121, 152, 255);
 }
 
 
@@ -299,7 +299,7 @@ strong {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 0.4s;
+    transition: all 0.8s;
 }
 
 .show {
