@@ -9,6 +9,6 @@ const observer = new IntersectionObserver((entries) => {
     });
 });
 
-const timelineElement = document.querySelectorAll('.hidden');
+const hiddenElements = document.querySelectorAll('.hidden');
 
-timelineElement.forEach((el) => observer.observe(el));
+hiddenElements.forEach((el) => observer.observe(el));

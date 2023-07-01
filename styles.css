@@ -46,7 +46,7 @@ a {
 
 a:hover {
     background: rgb(26,53,200);
-    background: linear-gradient(90deg, rgba(26,53,200,1) 0%, rgba(101,67,173,1) 35%, rgba(183,2,237,1) 66%, rgba(102,24,140,1) 100%);
+    background: linear-gradient(90deg, rgba(26,53,200,1) 0%, rgba(101,67,173,1) 35%, rgb(202, 199, 224) 66%, rgb(28, 65, 230) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -84,13 +84,15 @@ li {
     line-height: 0.95075rem;
 }
 
-header {
-    background: url('./assets/background-image.png');
-    background-size: cover;
+.header {
     width: 100%;
-    height: 50rem; 
+    height: 100vh; 
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
 .main-content-title {
     margin-top: 180.62px;
 }
@@ -129,7 +131,7 @@ button {
 }
 button:hover
 {
-    border-color: rgba(102,24,140,1);
+    border-color: rgb(169, 193, 207);
 }
 
 
@@ -297,13 +299,20 @@ strong {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 2s;
+    transition: all 0.4s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
-    transform: blur(0);
+    transform: translateX(0);
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
 }
 
 @media screen and (max-width: 1150px) {    
@@ -313,12 +322,19 @@ strong {
     body {
         position: relative
       }
-    header {
-        background: url('./assets/background-image.png');
+    .header {
         background-size: cover;
         width: 100%;
-        height: 12rem;
+        height: auto;
         padding-top: 1px;
+    }
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .logo {
