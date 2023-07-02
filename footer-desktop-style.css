@@ -34,6 +34,10 @@
         margin-top: 1rem;
     }
 
+    .logo1 :hover {
+        background: url(./assets/color-logo.png);
+    }
+
 
     .email-box {
         /*background-color: pink;*/

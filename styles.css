@@ -315,6 +315,12 @@ strong {
     z-index: -1;
 }
 
+img:hover {
+    width: 3.16469rem;
+    height: 3.16919rem;
+    background-image: url(/assets/color-logo.png);
+}
+
 @media screen and (max-width: 1150px) {    
     html, body {
         overflow-x: hidden;
