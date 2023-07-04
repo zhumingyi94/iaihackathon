@@ -142,7 +142,7 @@ a {
 
 .main-content {
     background: linear-gradient(180deg, #000 0%, #0E126E 30.21%, #0C0C0C 100%);
-    height: 203.1875rem;
+    height: auto;
     display: flex;
     flex-direction: column;
 }

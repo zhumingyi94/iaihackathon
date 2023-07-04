@@ -7,7 +7,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 6rem;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
     }
 
     .judge-title {
@@ -38,7 +38,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 6rem;
+        gap: 10rem;
         margin-top: 1.4rem;
     }
 
@@ -101,4 +101,11 @@
         background-position: center;
     }
 
+    #vxt {
+        background-image: url("./assets/vxtung.png");
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
 }

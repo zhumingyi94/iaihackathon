@@ -96,3 +96,9 @@
     background-size: cover;
     background-position: center;
 }
+#vxt {
+    background-image: url("./assets/vxtung.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
