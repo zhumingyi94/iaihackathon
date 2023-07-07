@@ -1,4 +1,4 @@
-![image](https://github.com/nhatdm22022537/iaihackathon/assets/92232806/244b6e02-8cb1-4adb-8c97-f608d5667f25)# iaihackathon
+# iaihackathon
 **Website Registration and Information - IAIHackathon 2023**
 
 The website [https://iaihackathon.engineer/](https://iaihackathon.engineer/) serves as the platform for registering in the hackathon contest and provides essential information regarding the IAIHackathon 2023.
