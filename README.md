@@ -7,12 +7,16 @@ The website was independently designed using Figma, with the first three section
 
 Furthermore, I am responsible for handling the hosting aspect of this website. This involves implementing Load Balancing and adding SSL/TLS through the nginx web server on Digital Ocean.
 
-/*24-inch view*/
+*24-inch view*
 ![screencapture-iaihackathon-engineer-2023-07-07-19_00_01](https://github.com/nhatdm22022537/iaihackathon/assets/92232806/f979df29-d369-4515-979c-7c17224ab463)
 
-/*Laptop view*/
+
+
+*Laptop view*
 ![screencapture-iaihackathon-engineer-2023-07-07-19_01_15](https://github.com/nhatdm22022537/iaihackathon/assets/92232806/73a9da22-7632-4055-aead-97903c74e9f5)
 
-/*Mobille view*/
+
+
+*Mobille view*
 ![screencapture-iaihackathon-engineer-2023-07-07-19_07_12](https://github.com/nhatdm22022537/iaihackathon/assets/92232806/947d85ad-920a-46f4-b800-29626f56d438)
 
