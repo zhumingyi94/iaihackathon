@@ -1,4 +1,4 @@
-# iaihackathon
+# iaihackathon - Institute of Artificial Intelligence (Vietnam National University) Hackathon
 **Website Registration and Information - IAIHackathon 2023**
 
 The website [https://iaihackathon.engineer/](https://iaihackathon.engineer/) serves as the platform for registering in the hackathon contest and provides essential information regarding the IAIHackathon 2023.
