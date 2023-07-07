@@ -3,7 +3,7 @@
 
 The website [https://iaihackathon.engineer/](https://iaihackathon.engineer/) serves as the platform for registering in the hackathon contest and provides essential information regarding the IAIHackathon 2023.
 
-The website was independently designed using Figma, with the first three sections of the web coded and animated using CSS and JS by me. Kana, the collaborator, took charge of coding the remaining three sections, namely the judge, sponsor, and footer.
+The website was independently designed using Figma, with the first three sections of the web coded and animated using CSS and JS by me. kanawanttotimetravel, the collaborator, took charge of coding the remaining three sections, namely the judge, sponsor, and footer.
 
 Furthermore, I am responsible for handling the hosting aspect of this website. This involves implementing Load Balancing and adding SSL/TLS through the nginx web server on Digital Ocean.
 
